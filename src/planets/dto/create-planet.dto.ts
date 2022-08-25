@@ -1,1 +1,7 @@
-export class CreatePlanetDto {}
+export class CreatePlanetDto {
+  name: string;
+
+  value: string;
+
+  required: boolean;
+}
